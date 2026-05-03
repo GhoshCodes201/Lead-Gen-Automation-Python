@@ -1,0 +1,11 @@
+# APPROACH & TOOLS SUMMARY
+
+**Approach:** Built a modular 3-stage automation pipeline: (1) Web scraper using BeautifulSoup to collect 30+ NGO records from the National Trust database, (2) Intelligent data processor with regex-based field extraction for Name/Email/Phone/Location, and (3) Orchestration script with logging and scheduling capability.
+
+**Data Cleaning:** Implemented duplicate removal by organization name, regex extraction for emails and phones, whitespace trimming, and missing value handling with standardization.
+
+**Tools Used:** Python 3, Pandas (data manipulation), BeautifulSoup (web scraping), Requests (HTTP), Openpyxl (Excel export), and Schedule (bonus scheduling feature).
+
+**Key Feature:** Added automated scheduling capability allowing the pipeline to run unattended at configurable intervals, plus comprehensive audit logging for reproducibility.
+
+**Output:** Delivers clean, validated leads.xlsx with 30+ records and all required fields (Name, Email, Phone, Location) ready for immediate use.

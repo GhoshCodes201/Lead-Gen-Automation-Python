@@ -1,0 +1,141 @@
+[2026-05-03 08:07:47] 
+
+[2026-05-03 08:07:47] ╔==========================================================╗
+[2026-05-03 08:07:47] ║  LEAD GENERATION AUTOMATION PIPELINE - STARTED           ║
+[2026-05-03 08:07:47] ╚==========================================================╝
+[2026-05-03 08:07:47] ============================================================
+[2026-05-03 08:07:47] STEP 1: Starting Web Scraper
+[2026-05-03 08:07:47] ============================================================
+[2026-05-03 08:07:47] ✗ Scraping failed: Traceback (most recent call last):
+  File "C:\Users\aruna\Desktop\internship\script.py", line 5, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-05-03 08:07:47] ✗ Pipeline failed at scraping stage
+[2026-05-03 08:14:02] 
+
+[2026-05-03 08:14:02] ╔==========================================================╗
+[2026-05-03 08:14:02] ║  LEAD GENERATION AUTOMATION PIPELINE - STARTED           ║
+[2026-05-03 08:14:02] ╚==========================================================╝
+[2026-05-03 08:14:02] ============================================================
+[2026-05-03 08:14:02] STEP 1: Starting Web Scraper
+[2026-05-03 08:14:02] ============================================================
+[2026-05-03 08:14:35] ==================================================
+Lead Generation Web Scraper
+==================================================
+Fetching data from: https://thenationaltrust.in/content/registered_organization.php
+Found 10 data rows
+==================================================
+
+[2026-05-03 08:14:35] ✓ Scraping completed successfully
+[2026-05-03 08:14:35] ============================================================
+[2026-05-03 08:14:35] STEP 2: Starting Data Processing
+[2026-05-03 08:14:35] ============================================================
+[2026-05-03 08:14:58] ✗ Processing failed: Error processing data: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aruna\Desktop\internship\processdata.py", line 134, in <module>
+    process_data()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\aruna\Desktop\internship\processdata.py", line 123, in process_data
+    print("\n\u2713 Data cleaned and saved to leads.xlsx")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aruna\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>
+
+[2026-05-03 08:14:58] ✗ Pipeline failed at processing stage
+[2026-05-03 08:14:58] 
+
+[2026-05-03 08:14:58] ╔==========================================================╗
+[2026-05-03 08:14:58] ║  LEAD GENERATION AUTOMATION PIPELINE - STARTED           ║
+[2026-05-03 08:14:58] ╚==========================================================╝
+[2026-05-03 08:14:58] ============================================================
+[2026-05-03 08:14:58] STEP 1: Starting Web Scraper
+[2026-05-03 08:14:58] ============================================================
+[2026-05-03 08:15:00] ==================================================
+Lead Generation Web Scraper
+==================================================
+Fetching data from: https://thenationaltrust.in/content/registered_organization.php
+Found 10 data rows
+==================================================
+
+[2026-05-03 08:15:00] ✓ Scraping completed successfully
+[2026-05-03 08:15:00] ============================================================
+[2026-05-03 08:15:00] STEP 2: Starting Data Processing
+[2026-05-03 08:15:00] ============================================================
+[2026-05-03 08:15:01] ✗ Processing failed: Error processing data: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aruna\Desktop\internship\processdata.py", line 134, in <module>
+    process_data()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\aruna\Desktop\internship\processdata.py", line 123, in process_data
+    print("\n\u2713 Data cleaned and saved to leads.xlsx")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aruna\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>
+
+[2026-05-03 08:15:01] ✗ Pipeline failed at processing stage
+[2026-05-03 08:23:10] 
+
+[2026-05-03 08:23:10] ╔==========================================================╗
+[2026-05-03 08:23:10] ║  LEAD GENERATION AUTOMATION PIPELINE - STARTED           ║
+[2026-05-03 08:23:10] ╚==========================================================╝
+[2026-05-03 08:23:10] ============================================================
+[2026-05-03 08:23:10] STEP 1: Starting Web Scraper
+[2026-05-03 08:23:10] ============================================================
+[2026-05-03 08:23:12] ==================================================
+Lead Generation Web Scraper
+==================================================
+Fetching data from: https://thenationaltrust.in/content/registered_organization.php
+Found 10 data rows
+==================================================
+
+[2026-05-03 08:23:12] ✓ Scraping completed successfully
+[2026-05-03 08:23:12] ============================================================
+[2026-05-03 08:23:12] STEP 2: Starting Data Processing
+[2026-05-03 08:23:12] ============================================================
+[2026-05-03 08:23:17] Starting data processing...
+Loaded 10 rows from scraped_data.csv
+Cleaning data...
+Removed 0 duplicate entries
+
+--- Data Quality Report ---
+Total rows: 10
+Rows with email: 10
+Rows with location: 10
+Rows with phone: 10
+Empty rows: 0
+
+[OK] Data cleaned and saved to leads.xlsx
+[OK] Total leads generated: 10
+
+[2026-05-03 08:23:17] ✓ Processing completed successfully
+[2026-05-03 08:23:17] ============================================================
+[2026-05-03 08:23:17] STEP 3: Verifying Output Files
+[2026-05-03 08:23:17] ============================================================
+[2026-05-03 08:23:17] [OK] scraped_data.csv (Raw scraped data) - 0.00 MB
+[2026-05-03 08:23:17] [OK] leads.xlsx (Processed leads file) - 0.01 MB
+[2026-05-03 08:23:17] ============================================================
+[2026-05-03 08:23:17] AUTOMATION REPORT
+[2026-05-03 08:23:17] ============================================================
+[2026-05-03 08:23:17] 
+Final Statistics:
+[2026-05-03 08:23:17]   Total Leads: 10
+[2026-05-03 08:23:17]   Records with Email: 10
+[2026-05-03 08:23:17]   Records with Phone: 10
+[2026-05-03 08:23:17]   Records with Location: 10
+[2026-05-03 08:23:17] 
+  Top Email Domains:
+[2026-05-03 08:23:18]     - gmail.com: 5
+[2026-05-03 08:23:18]     - yahoo.com: 1
+[2026-05-03 08:23:18]     - msit.org.in: 1
+[2026-05-03 08:23:18]     - yahoo.co.in: 1
+[2026-05-03 08:23:18]     - rediffmail.com: 1
+[2026-05-03 08:23:18] 
+
+[2026-05-03 08:23:18] ╔==========================================================╗
+[2026-05-03 08:23:18] ║  LEAD GENERATION AUTOMATION PIPELINE - COMPLETED [OK] ║
+[2026-05-03 08:23:18] ╚==========================================================╝
